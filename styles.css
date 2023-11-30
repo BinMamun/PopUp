@@ -24,7 +24,7 @@
 .card {
   width: 400px;
   height: auto;
-  padding: 30px;
+  padding: 20px 30px;
   text-align: center;
   border: 3px solid #ff005d;
   border-radius: 10px;
@@ -33,13 +33,12 @@
 }
 
 .card img {
-  margin-top: -60px;
   width: 70px;
+  margin-top: -55px;
 }
 
-
 .card p {
-  margin: 20px;
+  margin: 10px;
 }
 
 .btn {
@@ -49,6 +48,7 @@
   font-size: 14px;
   background: #ff005d;
   border: none;
+  outline: none;
   border-radius: 3px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
   cursor: pointer;
