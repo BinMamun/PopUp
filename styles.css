@@ -13,23 +13,30 @@
   padding: 1px;
   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
   position: relative;
-  color: #fb6035;
+  color: #796560;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   gap: 20px;
 }
 
 .card {
   width: 400px;
-  height: auto;
-  padding: 20px 30px;
+  background: white;
+  padding: 20px;
   text-align: center;
   border: 3px solid #ff005d;
   border-radius: 10px;
-  background: white;
-  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: -10%;
+  transform: translate(0%, 0%) scale(5%);
+  visibility: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.open-popup {
+  visibility: visible;
+  transform: translate(0%, 150%) scale(100%);
 }
 
 .card img {
@@ -37,9 +44,17 @@
   margin-top: -55px;
 }
 
+.card h2 {
+  font-size: 38px;
+  font-weight: 500;
+}
+
 .card p {
   margin: 10px;
 }
+
+.open-popup {}
+
 
 .btn {
   width: 110px;
