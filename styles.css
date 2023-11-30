@@ -28,8 +28,8 @@
   border: 3px solid #ff005d;
   border-radius: 10px;
   position: absolute;
-  top: -10%;
-  transform: translate(0%, 0%) scale(5%);
+  top: -6%;
+  transform: translate(0%, 150%) scale(5%);
   visibility: hidden;
   transition: all 0.5s ease-in-out;
 }
